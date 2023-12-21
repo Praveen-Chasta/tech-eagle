@@ -1,0 +1,93 @@
+.bg-container {
+  display: flex;
+  background-color: rgb(219, 212, 212);
+  height: 100vh;
+}
+
+.form-element {
+  display: flex;
+  width: 40vh;
+  flex-direction: column;
+  margin-left: 40px;
+  background-color: rgb(178, 176, 176);
+  padding: 20px;
+  height: 60vh;
+  margin-top: 25px;
+}
+
+.heading {
+  margin-bottom: 0;
+}
+
+.paragraph {
+  font-size: 12px;
+  margin: 0px;
+  margin-bottom: 25px;
+}
+
+.label-1 {
+  margin-top: 5px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.input-1 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.button {
+  padding: 15px;
+  width: 150px;
+  margin-top: 20px;
+  background-color: #000000;
+  color: #ffffff;
+  cursor: pointer;
+  border-width: 0px;
+}
+
+.list-item-container {
+  background-color: #ffffff;
+  width: 150vh;
+  margin: 25px;
+  padding: 20px;
+  overflow-x: scroll;
+}
+
+.list-tags {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tags {
+  color: grey;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.hr-line {
+  margin-top: 50vh;
+}
+
+.button-cont {
+  direction: rtl;
+  margin-top: 10px;
+}
+
+.button-2 {
+  padding: 12px;
+  background-color: orangered;
+  color: #ffffff;
+  border-width: 0px;
+  cursor: pointer;
+}
+
+.note {
+  color: #000000;
+  font-size: 25px;
+  font-family: "Roboto";
+  text-align: center;
+  margin-top: 25vh;
+}

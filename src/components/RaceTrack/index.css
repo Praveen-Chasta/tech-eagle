@@ -1,0 +1,19 @@
+/* RaceTrack.css */
+
+.race-track-container {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  border: 2px solid #333; /* Adjust border style */
+  border-radius: 50%; /* Create an elliptical shape */
+  margin: 20px auto; /* Adjust margin for centering */
+}
+
+.participant-dot {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Add a shadow for better visibility */
+}
